@@ -1,0 +1,26 @@
+{
+  "name": "alim-terminal",
+  "displayName": "Alim Terminal",
+  "description": "Terminalde 'alim new phone' komutuyla Flutter ve HTML projelerini telefon ortamında çalıştırır.",
+  "version": "1.0.0",
+  "publisher": "alimdev",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onCommand:alimTerminal.runPhone"],
+  "main": "extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "alimTerminal.runPhone",
+        "title": "Alim: New Phone"
+      }
+    ]
+  },
+  "icon": "assets/icon.png",
+  "scripts": {
+    "postinstall": "echo 'Alim Terminal yüklendi!'"
+  },
+  "keywords": ["alim", "terminal", "flutter", "html", "phone"]
+}
