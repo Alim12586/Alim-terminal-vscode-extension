@@ -3,7 +3,7 @@
   "displayName": "Alim Terminal",
   "description": "Terminalde 'alim new phone' komutuyla Flutter ve HTML projelerini telefon ortamında çalıştırır.",
   "version": "1.0.0",
-  "publisher": "alimdev",
+  "publisher": "alim",
   "engines": {
     "vscode": "^1.80.0"
   },
