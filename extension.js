@@ -9,6 +9,7 @@ function activate(context) {
 
     // Flutter projesi çalıştır
     terminal.sendText('cd flutter_project && flutter run');
+    
 
     // HTML projesi için basit sunucu
     terminal.sendText('cd html_project && npx serve');
